@@ -1,0 +1,93 @@
+.bodyLight {
+    background-color: aliceblue;
+}
+
+.bodyDark {
+    background-color: black;
+    color: aliceblue;
+}
+.skill{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 100px;
+}
+
+
+.skill-item{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+}
+.skill-item *{
+    margin: 1px;
+}
+
+.lorem, .ipsum, .dolor, .sit, .amet{
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 1px 1px 25px rgb(94, 75, 72);
+    border-radius: 5%;
+}
+
+.profil{
+    border-radius: 100%;
+}
+
+
+
+
+.jumbotron {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    stroke: black 1px;
+    color: aliceblue;
+    background-image: url("background.gif");
+    background-size: 100% auto;
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);   
+}
+
+.info *{
+    margin: 5px;
+}
+
+.deskripsi {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 100px;
+}
+
+.socmed {
+    text-align: center;
+    color: aliceblue;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-image: url("https://th.bing.com/th/id/OIP.-ks4QEeoX8zNDkLCGV-I4gHaEK?w=311&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+}
+
+.socmed *{
+    margin: 10px;
+}
+
+.mode {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+.profilContainer {
+    grid-template-columns: 100 100 100;
+}
+
+.slideKanan .slideKiri {
+    height: 100px;
+    width: 100px;
+}
+
